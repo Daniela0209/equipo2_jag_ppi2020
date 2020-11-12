@@ -4,7 +4,7 @@ import "../Style/styles.css";
 class logins extends React.Component {
   render() {
     return (
-      <div className="container-fluid" class="fondoLogin">
+      <div className="container-fluid" class="fondologins">
         <div class="bordes">
           <div class="bordesForm">
             <h1 class="inicioSesion">
@@ -12,8 +12,8 @@ class logins extends React.Component {
             </h1>
             <form>
               <div className="form-group">
-                <label>
-                  <strong>Correo Electronico </strong>
+                <label class="letraContenido">
+                  <strong>Correo Electrónico </strong>
                 </label>
                 <input
                   type="email"
@@ -25,7 +25,7 @@ class logins extends React.Component {
                 </small>
               </div>
               <div className="form-group">
-                <label>
+                <label class="letraContenido">
                   <strong> Contraseña </strong>
                 </label>
                 <input
@@ -42,7 +42,7 @@ class logins extends React.Component {
             </form>
             <a href="registro" className="clickaqui">
               <strong>
-                Si no tienes una cuenta, recuerda registrarte dando click aquí{" "}
+                Si no tienes una cuenta, recuerda registrarte dando click aquí
               </strong>
             </a>
           </div>
